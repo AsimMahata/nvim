@@ -82,8 +82,8 @@ return {
       -- RECEIVING
       received_files_extension = "cpp",
 
-      received_problems_path = "$(CWD)/cp/$(PROBLEM).$(FEXT)",
-      received_contests_directory = "$(CWD)/cp",
+      received_problems_path = "$(CWD)$(PROBLEM).$(FEXT)",
+      received_contests_directory = "$(CWD)",
       received_contests_problems_path = "$(PROBLEM).$(FEXT)",
 
       received_problems_prompt_path = true,

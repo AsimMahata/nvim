@@ -13,10 +13,10 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 
 vim.opt.list = false
 
--- Tabs: width = 2
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
+-- Tabs: width = 4
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
 vim.opt.expandtab = true
 
 -- F5: Compile & run C++ (Windows)
